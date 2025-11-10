@@ -24,7 +24,7 @@ if not os.path.isdir("Isolated_Files"):
 LLM_MetaData = {
     "Model": "meta-llama/Llama-3.2-1B-Instruct",
     "Agent_Identity": {"role": "system", "content": "You are an expert code review agent and will be critically reviewing and making edits to provided code."},
-    "RAG_Context_Directory": "DataBend",
+    "RAG_Context_Directory": "YOUR_LOCAL_DIRECTORY",
     "RAG_Database_Directory": "RAG_VBD",
     "Context_Window": 30720,
     "Max_New_Tokens": 15360,
